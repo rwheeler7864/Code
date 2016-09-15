@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--#include virtual="head.shtml" -->
+<body>
+<div class="wrapper">
+	<header class="header-secondary">
+		<div class="shell-secondary">
+			<a href="#" class="logo-secondary">PatientExcel</a>
+			
+			<nav class="nav nav-secondary">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					
+					<li>
+						<a href="#">Excelerator</a>
+					</li>
+					
+					<li>
+						<a href="#">Do You Qualify</a>
+					</li>
+				</ul>
+			</nav><!-- /.nav -->
+		</div><!-- /.shell -->
+	</header><!-- /.header -->

@@ -1,0 +1,88 @@
+	<footer class="footer">
+		<div class="footer-content">
+			<div class="shell">
+				<div class="footer-inner">
+					<a href="#" class="logo-small">PatientExcel</a>
+					
+					<div class="socials">
+						<ul>
+							<li>
+								<a href="#">
+									<i class="ico ico-facebook"></i>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<i class="ico ico-twitter"></i>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<i class="ico ico-google"></i>
+								</a>
+							</li>
+							
+							<li>
+								<a href="#">
+									<i class="ico ico-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+					</div><!-- /.socials -->
+					
+					<ul class="list-contacts">
+						<li>
+							admin@patientexcel.com
+						</li>
+						
+						<li>
+							1-877-9-CLIENT
+						</li>
+					</ul><!-- /.list-contacts -->
+				</div><!-- /.footer-inner -->
+				
+				<nav class="nav footer-nav">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						
+						<li>
+							<a href="#">Excelerator</a>
+						</li>
+						
+						<li>
+							<a href="#">Video</a>
+						</li>
+						
+						<li>
+							<a href="#">Do You Qualify</a>
+						</li>
+						
+						<li>
+							<a href="#">Download Pdf</a>
+						</li>
+					</ul>
+				</nav><!-- /.nav -->
+			</div><!-- /.shell -->
+		</div><!-- /.footer-content -->
+		
+		<div class="footer-bar">
+			<div class="shell">
+				<p class="copyright">
+					<a href="#">
+						&copy;2016 Patient Excel, LLC
+					</a> |
+					
+					<a href="#">
+						LEGAL INFORMATION
+					</a>
+				</p><!-- /.copyright -->
+			</div><!-- /.shell -->
+		</div><!-- /.footer-bar -->
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>

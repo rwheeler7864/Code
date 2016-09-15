@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro { background: url(../css/images/intro-background.jpg) no-repeat 0 -510px; width: 100%; min-height: 515px;  text-align: center; color: #fff; padding: 150px 0 100px 0;  }
+.intro h1 { font-size: 66px; font-weight: 400;  margin-bottom: 60px;  }
+.intro p  { text-transform: uppercase; margin-bottom: 60px;  }
+
+.intro h1 span { position: relative;  }
+.intro h1 span:after  { content: ''; display: inline-block; position: absolute; bottom: -25px; left: 15px; height: 1px; background-color: #fff;  width: 97%;   }
+
+.intro-secondary { background: url(../css/images/intro-secondary.jpg) no-repeat 0 center; width: 100%; min-height: 226px; background-size: cover; padding-top: 53px; }
+.intro-secondary h1 { font-size: 48px; color: #f0ffff; margin-bottom: 48px;  }
+.intro-secondary small  { font-weight: 700; font-size: 15px; color: #afeeee; font-family: 'Ubuntu', sans-serif; }
+.intro-secondary a  { float: right; font-size: 24px; color: #fffffc; margin-right: 12.33%; font-weight: 700; position: relative; top: -110px;  }
+.intro-secondary a i { margin-right: 15px;  }
+.intro-secondary a span:hover { text-decoration: underline;  }
+
+
+
+
+$breakpoint-small-desktop { 
+	.intro { background-position: center -510px; }
+}
+
+$breakpoint-mobile{
+	
+	.intro h1 span:after {  left: 70px; ;  }
+	
+}
+$breakpoint-mobile-portrait{
+	
+	.intro { background-position: center -310px; padding-top: 200px;  }	
+	.intro  h1{ font-size: 42px;  }	
+	
+	.intro h1 span:after {  left: 15%; width: 70% ;   }
+}
+
+@media(max-width: 935px){
+	.intro-secondary { text-align: center; padding: 77px 0; }
+	.intro-secondary a { float: none; margin-right: 0; top: 0; display: block;  }
+	.intro-secondary small  { display: inline-block; margin-bottom: 60px;  }
+}
+
+@media(max-width: 490px){
+	.intro h1 span:after {  left: 15%;  width: 100% ;   }	
+}
+
+@media(max-width: 337px){
+	.intro h1 span:after {  left: 0;  width: 100% ;   }	
+}

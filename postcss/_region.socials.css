@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials { display: inline-block; margin-right: 12.78%;  }
+.socials li { float: left;  }
+.socials li:hover  { opacity: .8;  }
+
+.socials-secondary { margin-right: 0; margin-bottom: 64px;  }
+.socials-secondary .ico-facebook-secondary:hover { background: url(../css/images/sprite/ico-facebook-teritary.png) no-repeat 0 0;   }
+.socials-secondary .ico-twitter-secondary:hover  { background: url(../css/images/sprite/ico-twitter-teritary.png) no-repeat 0 0;   }
+.socials-secondary .ico-linkedin-secondary:hover  { background: url(../css/images/sprite/ico-linkedin-teritary.png) no-repeat 0 0;  }
+.socials-secondary .ico-google-secondary:hover  { background: url(../css/images/sprite/ico-google-teritary.png) no-repeat 0 0;  }
+
+$breakpoint-tablet-portrait { 
+	.socials { display: block; text-align: center; margin-right: 0; position: relative; top: -20px;  }
+	.socials ul { display: inline-block;  }
+}

@@ -1,0 +1,23 @@
+$font-size-base:                    20px;
+$line-height-base:                  1.2;
+
+
+$shell-max-width:                   970px;
+$shell-gutter:                      10px;
+
+
+$font-family-sans-serif:            'Cabin', sans-serif;
+$font-family-serif:                 'Times', serif;
+
+
+$responsive-xxs:                    560px;
+$responsive-xs:                     735px;
+$responsive-sm:                     890px;
+$responsive-md:                     1200px;
+
+
+$breakpoint-mobile-portrait:        @media (max-width: $responsive-xxs);
+$breakpoint-mobile:                 @media (max-width: $responsive-xs);
+$breakpoint-tablet-portrait:        @media (max-width: $responsive-sm);
+$breakpoint-small-desktop:          @media (max-width: $responsive-md);
+$retina:                            @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);

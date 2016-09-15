@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer .footer-content { background-color: #f1f1f0;  padding: 58px 0 73px;  }
+.footer .footer-inner  { padding-left: 7.32%; margin-bottom: 65px;  }
+.footer .footer-nav  { float: none; text-align: center;  }
+.footer .footer-nav a { color: #888885;  }
+.footer .footer-nav li  { margin-right: 20px;  }
+.footer .footer-nav li:after  { background-color: #888885; right: -10px;  }
+.footer .footer-nav ul  { display: inline-block;  }
+.footer .footer-bar { background-color: #bfc5c6; color: #fff; padding: 31px 0 39px; text-align: center; font-size: 16px;  }
+.footer .footer-bar a:hover  { text-decoration: underline;  }
+
+.footer-secondary .footer-content { background-color: #fff; text-align: center;  }
+.footer-secondary .footer-nav-secondary li { display: inline-block; position: relative; text-transform: uppercase;  }
+.footer-secondary .footer-nav-secondary a:hover  { text-decoration: underline;  }
+.footer-secondary .footer-nav-secondary li:last-child  { margin-right: 0;  }
+.footer-secondary .footer-nav-secondary li:last-child:after  { display: none;  }
+.footer-secondary .footer-nav-secondary li:after { content: ''; display: inline-block; position: absolute;   background-color: #554445; right: -20px; top: 3px; height: 15px;  }
+
+.footer-secondary .footer-bar { background-color: #444441; }
+.footer-secondary .footer-bar span { display: inline-block; margin-right: 29px; position: relative;  }
+.footer-secondary .footer-bar span:after  { content: ''; display: inline-block; position: absolute; right: -17px; top: 3px; width: 2px; height: 15px; background-color: #fff;   }
+
+$breakpoint-tablet-portrait { 
+	.footer .footer-inner { text-align: center; padding-left: 0;  }
+}

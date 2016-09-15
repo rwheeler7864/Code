@@ -1,0 +1,8 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+.list-contacts { display: inline-block; color: #888; font-size: 16px; position: relative; top: -10px; text-align: center;  }
+.list-contacts li { margin-bottom: 8px;  }

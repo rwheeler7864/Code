@@ -1,0 +1,49 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+/*  Section System  */
+
+.section-system   { padding: 78px 0 55px; text-align: center;  }
+
+.section-system .section-head { color: #36bfb1; font-size: 26px; margin-bottom: 55px;  }
+.section-system .section-head h2 { font-size: 48px; font-weight: 400; font-style: italic; margin-bottom: 23px;  }
+
+.section-system .section-body  { color: #888; line-height: 1.1;  }
+.section-system .section-body p { margin-bottom: 24px;  }
+.section-system .section-body p span { color: #006400;  }
+.section-system .section-body p span small { font-size: 10px;  }
+
+.section-faq { margin: 77px 0 0 0; padding: 75px 0 71px; border-top: 2px solid #bbb; border-bottom: 2px solid #bbb; text-align: center; }
+.section-faq h2 { color: #008080; font-size: 44px; font-family: 'Roboto', sans-serif; margin-bottom: 68px;  }
+.section-faq p  { font-size: 24px; color: #444446; margin-bottom: 24px;  }
+
+.section-faq  .section-head { margin-bottom: 66px;  }
+
+.section-qualify    { margin-bottom: 100px;  }
+.section-qualify   p  { font-size: 16px; font-family: 'Roboto', sans-serif;  }
+.section-qualify   p a  { transition: opacity .5s;  }
+.section-qualify   p a:hover { opacity: .5;  }
+
+.section-presentation { background: url(../css/images/presentation-background.jpg) no-repeat 0 center; width: 100%; height: 100vh; background-size: cover;  text-align: center;  }
+.section-presentation .section-inner { position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0;  color: #fff;  }
+
+.section-presentation  h1 { font: 300 100px/1.1 'Open Sans', sans-serif; color: #fff; margin-bottom: 20px;  }
+.section-presentation  img  { width: 300px; height: 142px;  }
+.section-presentation  p  { font: 300 18px/1.5 'Open Sans', sans-serif; margin-bottom: 50px;  color: #cdc8c5;  }
+.section-presentation  .logo-teritary  { display: inline-block;  background: url(../css/images/sprite/logo-small.png) no-repeat 0 0; width: 300px; height: 142px; background-size: 100% 100%;  font-size: 0; line-height: 0; text-indent: -4004px; }
+
+
+@media(max-width: 768px){
+	
+.section-presentation { height: 517px; }
+.section-presentation h1 { font-size: 50px;  }
+.section-presentation p  { font-size: 16px;  }
+
+.section-presentation .section-inner { top: 100px; transform: translateX(0);  }
+
+}
+
+@media(max-width: 455px){
+	.section-presentation { height: 600px; }
+}

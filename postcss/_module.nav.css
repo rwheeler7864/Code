@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav { float: right; font-size: 16px; text-transform: uppercase; margin-top: 10px;  }
+.nav a {  color: #fff;  }
+.nav a:hover  { text-decoration: underline;  }
+.nav li { float: left; margin-right: 10px; position: relative;  }
+.nav li:after  { content: ''; display: inline-block; position: absolute; top: 3px; right: -5px; width: 1px; background-color: #fff; height: 13px;   }
+.nav li:last-child  { margin-right: 0;  }
+.nav li:last-child:after  { display: none;  }
+
+.nav-secondary { font: 200 19px/1.21 'Roboto', sans-serif; margin: 30px 20px 0 ; }
+.nav-secondary li { margin-right: 30px; letter-spacing: 0.08em;  }
+.nav-secondary li:after { background-color: #444445; width: 2px; height: 15px; right: -15px;  }
+.nav-secondary a { color: #444445;  }
+
+$breakpoint-mobile-portrait {
+	.nav { text-align: center; float: none; width: 100%;  }
+	.nav li { display: inline-block; float: none; line-height: 1.9;  }
+	.nav li:after  { display: none;   }
+	.nav-secondary li:after { display: block; top: 10px; }
+	.nav ul { display: inline-block; }
+}
+
+@media(max-width: 935px){
+		
+	.nav-secondary { float: none; width: 100%; text-align: center; margin-left: 0;  }
+	.nav-secondary ul { display: inline-block;  }
+}

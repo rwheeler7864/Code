@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form-contacts { max-width: 638px; margin: auto; background-color: #1f4f80; border: 1px solid #fff; padding: 21px 0 33px; position: relative;  }
+.form-contacts .form-inner { max-width: 450px; margin: auto;  }
+.form-contacts  .form-head  { margin-bottom: 26px;  }
+
+.form-contacts  h1 { font-size: 21px; color: #fff; font-family: Verdana, sans-serif;  }
+.form-contacts  .field  { width: 100%; border: 1px solid #c9d7dd; padding-left: 15px; height: 45px; color: #999; margin-bottom: 13px;  font-family: 'Arial', sans-serif; font-size: 16px;   }
+.form-contacts  .form-btn  { display: block; width: 100%; min-height: 52px; background-color: #1285dd; border-radius: 4px; border: 0; font-weight: 700; text-transform: uppercase; text-shadow: 1px 1px 1px #035ba3;  color: #fff; margin-bottom: 13px; }
+.form-contacts  .form-notice  { display: block; text-align: center; color: #828281; font-size: 16px;  }
+.form-contacts  .form-notice i { margin-right: 9px;  }
+
+
+$breakpoint-mobile { 
+	.form-contacts { margin: 0 20px; padding: 20px; }
+}

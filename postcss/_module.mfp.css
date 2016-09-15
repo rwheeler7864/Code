@@ -1,0 +1,6 @@
+/* ------------------------------------------------------------ *\
+	Mangific Pop Up
+\* ------------------------------------------------------------ */
+
+.mfp-content button.mfp-close { background: url(../css/images/btn-close.png) no-repeat 0 0; width: 28px; height: 28px; color: transparent; position: absolute; top: -13px; right: -10px; opacity: 1;   }
+

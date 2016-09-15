@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	System Element
+\* ------------------------------------------------------------ */
+
+
+.system-element  { margin-bottom: 155px; font-family: 'Roboto', sans-serif; }
+
+.system-element .system-element-image { width: 20.99%; float: left; }
+.system-element .system-element-content  { width: 73.38%; float: right; text-align: left;  }
+
+.system-element .system-element-content  h3 { font-size: 26px; color: #008080;   margin-bottom: 20px; }
+.system-element .system-element-content  h3 span { color: #444446;  }
+.system-element .system-element-content  p  { font-size: 18px; line-height: 1.56; margin-bottom: 30px;  }
+.system-element .system-element-content  p span { color: #008080;  }
+
+@media(max-width: 935px){
+	.system-element .system-element-image  {  float: none; width: 100%; margin-bottom: 30px;  }	
+	.system-element .system-element-image  img { width: 200px; height: 200px;  }	
+	.system-element .system-element-content { float: none; width: 80%; margin: auto;  }	
+}

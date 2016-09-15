@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('Verdana-Bold.woff') format('woff'),
+       url('Verdana-Bold.ttf') format('truetype'),
+       url('Verdana-Bold.svg#Verdana-Bold') format('svg');
+  src: url('verdanab.eot');
+  src: url('verdanab.woff2') format('woff2'),
+       url('verdanab.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+

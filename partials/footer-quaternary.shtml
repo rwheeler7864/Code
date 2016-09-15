@@ -1,0 +1,64 @@
+	<footer class="footer footer-secondary">
+		<div class="footer-content">
+			<div class="shell-teritary">
+				<div class="socials socials-secondary">
+					<ul>
+						<li>
+							<a href="#">
+								<i class="ico ico-facebook-secondary"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="ico ico-twitter-secondary"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="ico ico-linkedin-secondary"></i>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#">
+								<i class="ico ico-google-secondary"></i>
+							</a>
+						</li>
+					</ul>
+				</div><!-- /.socials -->
+				
+				<br>
+				
+				<a href="#" class="logo-secondary">PatientExcel</a>
+				
+				<nav class="nav-secondary footer-nav-secondary">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						
+						<li>
+							<a href="#">Excelerator</a>
+						</li>
+						
+						<li>
+							<a href="#">Do You Qualify?</a>
+						</li>
+					</ul>
+				</nav><!-- /.nav -->
+			</div><!-- /.shell -->
+		</div><!-- /.footer-content -->
+		
+		<div class="footer-bar">
+			<div class="shell-secondary">
+				<p class="copyright">
+					<span>&copy;2016 Patient Excel, LLC</span>    Frequently Asked Questions
+				</p><!-- /.copyright -->
+			</div><!-- /.shell -->
+		</div><!-- /.footer-bar -->
+	</footer><!-- /.footer -->
+</div><!-- /.wrapper -->
+</body>
+</html>

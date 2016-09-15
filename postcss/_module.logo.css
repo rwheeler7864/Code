@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo-small  { margin-right: 14.23%; position: relative; top: -30px;  }
+.logo-small-secondary  { top: 0; margin-right: 0;  }
+
+
+$breakpoint-tablet-portrait { 
+	.logo-small { margin-right: 0; }
+}
+
+$breakpoint-mobile-portrait { 
+	.logo { position: relative;  left: 50%; transform: translateX(-50%); margin-bottom: 20px;  }	
+}
+
+@media(max-width: 935px) { 
+	.logo-secondary { left: 50%; margin-right: 0; transform: translateX(-50%); }	
+}
+
+ 
